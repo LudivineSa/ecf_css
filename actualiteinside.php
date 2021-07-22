@@ -2,8 +2,8 @@
 <header class="actuinside">
     <div class="container">
         <img src="img/photoclavier.webp" alt="focus on a keyboard" class="mlrauto mt4">
-        <h1 class="text-center fontsize48 sb mt4 mb-4 mlr21">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur.</h2>
-        <p class="color-marron fontsize16 ft-ms text-center mlr21 mb-4"><time datetime="2020-12-02">12/02/2020</time></p>
+        <h1 class="text-center fontsize48 sb mt4 mb-4 mlr21">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur.</h1>
+        <p class="color-marron fontsize16 ft-ms text-center mb-4 "><time datetime="2020-12-02" class="relative  timeactu ">12/02/2020</time></p>
     </div>
 </header>
 <main class="actuinside">

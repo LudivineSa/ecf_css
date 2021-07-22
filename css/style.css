@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/*CONTAINER*/
+/****************************CONTAINER***************************/
 .container {
     width:100%;
     margin-left:auto;
@@ -46,7 +46,7 @@
     }
 }
 
-/* COLOR */
+/**************************** COLOR *****************************/
 
 .color-fff {
     color: #fff;
@@ -64,7 +64,7 @@
     color : #707070
 }
 
-/*background*/
+/**************************** background *****************************/
 .hero {
     background-image: url('../img/index.webp');
     background-size: cover;
@@ -79,6 +79,10 @@
     background-color: #FD7E37;
 }
 
+.bg-white {
+    background-color: #fff;
+}
+
 .bg-orangefixe {
     background-color: #FD7E37;
 }
@@ -87,7 +91,7 @@
     background-color: rgba(0, 0, 0, 0.8)
 }
 
-/*FONT*/
+/***************************** FONT *******************************/
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -161,6 +165,11 @@ body {
 .lh12 {
     line-height: 1.12;
 }
+
+.lh16 {
+    line-height: 1.6;
+}
+
 @media screen and (max-width : 1690px) {
     .fontsize72 {
         font-size : 6.8rem;
@@ -201,7 +210,7 @@ body {
     }
 }
 
-/*DISPLAY*/
+/******************************** DISPLAY ***********************************/
 .block {
     display:block;
 }
@@ -250,17 +259,17 @@ body {
 
 .grid2 {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .grid3 {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .grid4 {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .grid4-1 {
@@ -399,7 +408,11 @@ body {
         align-self: center;
     }
 }
-
+@media screen and (max-width: 650px) {
+    .columnmd {
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 570px) {
     .grid4{
         grid-template-columns: 1fr;
@@ -408,7 +421,7 @@ body {
 }
 
 
-/*Padding et margin*/
+/************************** Padding et margin *******************************/
 .mlrauto{
     margin-left:auto;
     margin-right: auto;
@@ -543,6 +556,10 @@ body {
     padding-bottom : 12rem;
 }
 
+.pb-4 {
+    padding-bottom : 4rem;
+}
+
 .pl-32 {
     padding-left : 32rem;
 }
@@ -600,6 +617,7 @@ body {
     .mrauto {
         margin-right : 5rem;
     }
+ 
 }
 
 @media screen and (max-width: 570px) {
@@ -618,7 +636,7 @@ body {
     }
 }
 
-/*box et borderDWWM2019-2ecf*/
+/************************ box et border DWWM2019-2ecf ****************************/
 
 .shadow-card {
     box-shadow: 0px 0px 48px #00000029;
@@ -630,6 +648,10 @@ body {
 
 .b-radius5 {
     border-radius: 5px;
+}
+
+.b-radius10 {
+    border-radius : 10px;
 }
 
 .border-none {
@@ -654,6 +676,7 @@ body {
     width : 100%;
 }
 
+
 .w18 {
     width : 18rem;
 }
@@ -662,7 +685,7 @@ body {
     max-width : 60%;
 }
 
-/* POSITION*/
+/********************************$ POSITION ******************************/
 
 .relative {
     position : relative;
@@ -678,12 +701,18 @@ body {
     position: absolute;
 }
 
-/*HOVER*/
+/********************************* HOVER **************************************/
 
 .hoverblanc:hover,
 .hoverblanc:focus {
     background-color: #fff;
     color: #FD7E37;
+}
+
+.hoverorange:hover,
+.hoverorange:focus {
+    background-color: #FD7E37;
+    color: #fff;
 }
 
 .scale0 {
@@ -712,7 +741,7 @@ body {
     transition: transform ease-in 0.2s;
 }
 
-/*AFTER*/
+/******************************* AFTER ********************************/
 time::after{
     content : "";
     position: absolute;
@@ -724,3 +753,16 @@ time::after{
     width : 1.5rem;
     height : 1.5rem;
 }
+
+.timeactu::after{
+    content : "";
+    position: absolute;
+    top : 3 ;
+    left : -20;
+    background-image: url("../img/icone-date.svg");
+    background-size : contain;
+    background-repeat: no-repeat;
+    width : 1.5rem;
+    height : 1.5rem;
+}
+

@@ -31,8 +31,8 @@
             <button class="displaynone color-fff ft-sm-sb mtb-1r fontsize24 bg-orange box-orange underline underline-1 p2" id="buttonnav">Menu</button>
         </div>
         <div class="container flex between align-center" hidden>
-            <nav class="color-fff fontsize2 ft-ms" id="menunav" hidden>
-                    <ul role="list" class="flex wrap center ">
+            <nav class="color-fff fontsize2 ft-ms " id="menunav" hidden>
+                    <ul role="list" class="flex wrap center columnmd">
                     <li><a href="formation.php" class="color-fff fontsize2 ft-ms none bg-orange hoverblanc mb-2 mlr-1">La formation</a></li>
                     <li><a href="etudiants.php" class="color-fff fontsize2 ft-ms none  bg-orange hoverblanc mb-2  mlr-1">Les étudiants</a></li>
                     <li><a href="actualite.php" class="color-fff fontsize2 ft-ms none  bg-orange hoverblanc mb-2 mlr-1">Actualités</a></li>

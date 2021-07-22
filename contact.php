@@ -19,8 +19,7 @@
                 <label for="msg" class="fontsize2 ft-ms mb-2">Votre message</label>
                 <textarea id="msg" required placeholder="Tapez votre message" rows="5" class="border-none border-form italic fontsize2 pb-15"></textarea>
             </div>
-            <button class="flex center w18 justify-end box-orange mb-4 grid2-3 btn bg-orange align-center self-left mtb-1r b-radius5 scale0 hoverborderwhite">
-            <p class="color-fff fontsize24 ft-ms ft-sm-sb">Envoyer</p>
+            <button class="flex center w18 justify-end box-orange mb-4 grid2-3 btn bg-orange align-center self-left mtb-1r b-radius5 scale0 hoverborderwhite ft-sm-sb color-fff"> Envoyer
             <img src="img/fleche.svg" alt="fleche vers la droite" class="mgl-1">
             </button>
            

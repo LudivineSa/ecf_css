@@ -9,3 +9,10 @@ boutonnav.addEventListener("click", function(){
         menunav.hidden = true;
     }
 })
+
+console.log(window)
+window.addEventListener('resize', function() {
+    if(innerWidth >= 1080) {
+    menunav.hidden = true;
+    console.log("yo")
+}})
