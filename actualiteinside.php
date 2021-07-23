@@ -1,9 +1,7 @@
 <?php include('parts/header.php'); ?>
 <header class="actuinside">
     <div class="container">
-        <img 
-        srcset="img/photoclavier.webp, img/photoclavier-2x.webp 2x"
-        src="img/photoclavier.webp" alt="focus on a keyboard" class="mlrauto mt4">
+    <img srcset="img/photoclavier.webp, img/photoclavier-2x.webp 2x" src="img/photoclavier.webp" alt="zoom on a keyboard" class="mlrauto mt4">
         <h1 class="text-center fontsize48 sb mt4 mb-4 mlr21">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur.</h1>
         <p class="color-marron fontsize16 ft-ms text-center mb-4 "><time datetime="2020-12-02" class="relative  timeactu ">12/02/2020</time></p>
     </div>

@@ -1,7 +1,9 @@
 <?php include('parts/header.php'); ?>
 <header class="etudiantpage">
     <div class="container">
-        <img src="img/francine-2x.webp" alt="photo of francine auhi" class="mlrauto mt4 mb-4">
+        <img 
+        srcset = "img/francine-.webp, img/francine-2x.webp 2x"
+        src="img/francine.webp" alt="photo of francine auhi" class="mlrauto mt4 mb-4">
         <h1 class="text-center fontsize48">Francine Auhi</h1>
     </div>
 </header>

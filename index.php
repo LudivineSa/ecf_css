@@ -36,7 +36,7 @@
                 </footer>
             </article>
             <article class="shadow-card grid1-1small scale0">
-                <img srcset="img/photoclavier.webp, img/photoclavier2x.webp 2x" src="img/photoclavier.webp" alt="zoom on a keyboard" class="w100">
+                <img srcset="img/photoclavier.webp, img/photoclavier-2x.webp 2x" src="img/photoclavier.webp" alt="zoom on a keyboard" class="w100">
                 <p class="mlr4 color-marron relative pt24 time"><time class="" datetime="2020-12-02">12/02/2020</time></p>
                 <h3 class="h3-article fontsize24 sb mtb-16r mlr-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
                 <p class="p-article fontsize2 ft-ms mb-1 mlr-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae delectus vel deleniti obcaecati. Officiis dolorum fugiat veritatis sequi quo laboriosam et eaque itaque dolor totam corrupti deserunt, eos perspiciatis ipsa ducimus quasi culpa laudantium alias nisi quas quis at nihil.</p>
