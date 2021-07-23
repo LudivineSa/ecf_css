@@ -122,6 +122,8 @@ body {
     text-decoration: none;
 }
 
+
+/*** FONTSIZE ***/ 
 .fontsize2 {
     font-size: 2rem;
 }
@@ -146,6 +148,7 @@ body {
     font-size : 7.2rem;
 }
 
+/*** POLICE ***/
 .ft-ms {
     font-family: 'Montserrat', sans-serif;
 }
@@ -256,6 +259,7 @@ body {
 .self-left {
     justify-self: right;
 }
+/** GRID **/
 
 .grid2 {
     display:grid;
@@ -422,23 +426,11 @@ body {
 
 
 /************************** Padding et margin *******************************/
-.mlrauto{
-    margin-left:auto;
-    margin-right: auto;
-}
+
 
 .mtb-1{
     margin-top:1em;
     margin-bottom: 1em
-}
-
-.mgl-1 {
-    margin-left : 1em;
-}
-
-.mlr-1 {
-    margin-left :1em;
-    margin-right : 1em;
 }
 
 .mtb-1r {
@@ -451,12 +443,49 @@ body {
     margin-bottom : 1.6rem;
 }
 
+.mgl-1 {
+    margin-left : 1em;
+}
+
+.mlrauto{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.mlr-1 {
+    margin-left :1em;
+    margin-right : 1em;
+}
+
+.mlr21{
+    margin-left : 21rem;
+    margin-right : 21rem;
+}
+
+.mlr4 {
+    margin-left : 4rem;
+    margin-right : 4rem;
+}
+
+.mlr7{
+    margin-left : 7rem;
+    margin-right : 7rem;
+}
+
 .mb-1 {
     margin-bottom : 1em;
 }
 
+.mb-2 {
+    margin-bottom : 2rem;
+}
+
 .mb-4 {
     margin-bottom : 4rem;
+}
+
+.mb-8 {
+    margin-bottom : 8rem;
 }
 
 .mb-12 {
@@ -483,18 +512,6 @@ body {
     margin-top : 24rem;
 }
 
-.pb-15 {
-    padding-bottom : 1.5rem;
-}
-
-.mb-2 {
-    margin-bottom : 2rem;
-}
-
-.mb-8 {
-    margin-bottom : 8rem;
-}
-
 .mt24 {
     margin-top : 2.4rem;
 }
@@ -503,28 +520,30 @@ body {
     margin-left : 32rem;
 }
 
-.mlr21{
-    margin-left : 21rem;
-    margin-right : 21rem;
-}
+/*** PADDING **/
 
-.mlr4 {
-    margin-left : 4rem;
-    margin-right : 4rem;
+.p2 {
+    padding : 2rem 2rem;
 }
-
-.mlr7{
-    margin-left : 7rem;
-    margin-right : 7rem;
-}
-
 
 .p3 {
     padding : 3rem 3rem;
 }
 
-.p2 {
-    padding : 2rem 2rem;
+.pb-4 {
+    padding-bottom : 4rem;
+}
+
+.pb-12 {
+    padding-bottom : 12rem;
+}
+
+.pb-15 {
+    padding-bottom : 1.5rem;
+}
+
+.pb17 {
+    padding-bottom : 17rem;
 }
 
 .pt24{
@@ -535,29 +554,17 @@ body {
     padding-top : 4rem;
 }
 
-.ptb2 {
-    padding-top : 2rem;
-    padding-bottom : 2rem;
-}
-
 .pt17 {
     padding-top : 17rem;
-}
-
-.pb17 {
-    padding-bottom : 17rem;
 }
 
 .pt-24 {
     padding-top : 24rem;
 }
 
-.pb-12 {
-    padding-bottom : 12rem;
-}
-
-.pb-4 {
-    padding-bottom : 4rem;
+.ptb2 {
+    padding-top : 2rem;
+    padding-bottom : 2rem;
 }
 
 .pl-32 {
@@ -675,7 +682,6 @@ body {
 .w100 {
     width : 100%;
 }
-
 
 .w18 {
     width : 18rem;
