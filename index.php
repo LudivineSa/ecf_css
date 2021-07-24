@@ -3,7 +3,7 @@
 <section class="hero flex">
     <div class="container">
         <section class="bg-black p3 flex column mt24 mb-12 ml32 mrauto"> 
-            <h1 class="b color-fff fontsize72 lh12 text text-center-md">Bienvenue sur le site de la promotion DWWM2019-2</h1>
+            <h1 class="b color-fff fontsize72 lh12 text text-center-md">Bienvenue sur le site de la promotion DWWM2021-3</h1>
             <button class="btn-student align-self-right bg-orange color-fff ft-sm-sb box-orange fontsize40 mt3 p2 hoverblanc ">Rencontre nos étudiants</button>
         </section>
     </div>
